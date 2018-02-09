@@ -25,6 +25,7 @@ function yaamp_get_algos()
 		'lyra2',
 		'lyra2v2',
 		'lyra2z',
+		'lyra2z330',
 		'neoscrypt',
 		'nist5',
 		'penta',
@@ -111,6 +112,7 @@ function yaamp_get_algo_norm($algo)
 		'whirlpool'	=> 1.0,
 		'yescrypt'	=> 1.0,
 		'yescryptR16'	=> 1.0,
+		'lyra2z330'	=> 1.0,
 		'zr5'		=> 1.0,
 	);
 
@@ -160,6 +162,7 @@ function getAlgoColors($algo)
 		'lyra2'		=> '#80a0f0',
 		'lyra2v2'	=> '#80c0f0',
 		'lyra2z'	=> '#80b0f0',
+		'lyra2z330'	=> '#80b0f0',
 		'phi'		=> '#a0a0e0',
 		'polytimos'	=> '#dedefe',
 		'sib'		=> '#a0a0c0',
@@ -215,6 +218,7 @@ function getAlgoPort($algo)
 		'lyra2'		=> 4433,
 		'lyra2v2'	=> 4533,
 		'lyra2z'	=> 4553,
+		'lyra2z330'	=> 4555,
 		'jha'		=> 4633,
 		'qubit'		=> 4733,
 		'zr5'		=> 4833,
