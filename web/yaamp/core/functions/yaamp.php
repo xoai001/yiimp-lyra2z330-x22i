@@ -112,7 +112,6 @@ function yaamp_get_algo_norm($algo)
 		'whirlpool'	=> 1.0,
 		'yescrypt'	=> 1.0,
 		'yescryptR16'	=> 1.0,
-		'lyra2z330'	=> 1.0,
 		'zr5'		=> 1.0,
 	);
 
