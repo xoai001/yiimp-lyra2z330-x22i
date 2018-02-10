@@ -7,13 +7,13 @@
 
 #define _ALIGN(x) __attribute__ ((aligned(x)))
 
-extern uint64_t lyra2z330_height;
+//extern uint64_t lyra2z330_height;
 
 void lyra2z330_hash(const char* input, char* output, uint32_t len)
 {
-  uint32_t _ALIGN(64) hashB[8], hash[8];
-  
+  uint32_t _ALIGN(64) hash[8];
+
   LYRA2z((void*)hash, 32, (void*)input, len, (void*)input, len, 2, 330, 256);
-  
+
   memcpy(output, hash, 32);
 }
