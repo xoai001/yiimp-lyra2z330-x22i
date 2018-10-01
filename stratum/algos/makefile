@@ -7,7 +7,7 @@ CC=gcc
 CFLAGS=-c -O3 -I /usr/include/mysql -march=native
 LDFLAGS=-O2
 
-SOURCES=Lyra2RE.c Lyra2.c Sponge.c blake.c scrypt.c c11.c x11.c x13.c sha256.c keccak.c \
+SOURCES=Lyra2RE.c Lyra2.c lyra2z330.c Sponge.c blake.c scrypt.c c11.c x11.c x13.c sha256.c keccak.c \
 	x14.c x15.c nist5.c fresh.c quark.c neoscrypt.c scryptn.c qubit.c skein.c groestl.c
 
 OBJECTS=$(SOURCES:.c=.o)
